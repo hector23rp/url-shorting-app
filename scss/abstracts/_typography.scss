@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('../font/Poppins/Poppins-Regular.ttf') format(('truetype'))
+}
+
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: url('../font/Poppins/Poppins-Bold.ttf') format(('truetype'))
+}
+
+@font-face {
+  font-family: 'Poppins-Black';
+  src: url('../font/Poppins/Poppins-Black.ttf') format(('truetype'))
+}
+
+.text-regular {
+  font-family: 'Poppins';
+  color: $color-gray-second;
+  font-weight: 800;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}

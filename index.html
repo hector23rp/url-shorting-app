@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="top-nav">
+    <span class="top-nav__title">Shortly</span>
+    <ul class="top-nav__links">
+      <li class="top-nav__links-item">Features</li>
+      <li class="top-nav__links-item">Pricing</li>
+      <li class="top-nav__links-item">Resources</li>
+    </ul>
+    <div class="top-nav__auth">
+      <a class="top-nav__auth-item bg-transparent color-gray">Login</a>
+      <button class="top-nav__auth-item btn-primary">Sign Up</button>
+    </div>
+  </nav>
+
+  <header class="header">
+    <div class="header__left">
+      <h1 class="header__title">More than just shorter links</h1>
+      <p class="text-regular">Build your brand’s recognition and get detailed insights on how your links are performing.
+      </p>
+      <button class="header__button btn-primary">Get Started</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="short-url pd-l flex-container-column">
+      <form class="form-short short-url__form w-100">
+        <input class="input form-short__input" type="text" name="input-short" placeholder="Shorten a link here...">
+        <button class="btn-submit form-short__button">Shorten It!</button>
+      </form>
+      <ul class="short-url__results list-result w-100">
+        <li class="list-result__item">
+          <span class="list-result__link">https://www.frontendmentor.io</span>
+          <span class="list-result__link-result">https://rel.ink/k4lKyk</span>
+          <button class="btn-cpy">Copy</button>
+        </li>
+        <li class="list-result__item">
+          <span class="list-result__link">https://www.frontendmentor.io</span>
+          <span class="list-result__link-result">https://rel.ink/k4lKyk</span>
+          <button class="btn-cpy">Copy</button>
+        </li>
+      </ul>
+      <h1 class="short-url__title">Advanced Statistics</h1>
+      <p class="short-url__description text-regular w-33">Track how your links are performing across the web with our
+        advanced statistics dashboard.</p>
+      <div class="short-url__cards">
+        <div class="short-url__cards-line"></div>
+        <div class="card short-url__cards-item short-url__cards-item-first">
+          <div class="card__img">
+            <img src="./images/icon-brand-recognition.svg">
+          </div>
+          <h3 class="card__title">Brand Recognition</h3>
+          <p class="card__description text-regular">
+            Boost your brand recognition with each click. Generic links don’t
+            mean a thing. Branded links help instil confidence in your content.
+          </p>
+        </div>
+        <div class="card short-url__cards-item">
+          <div class="card__img">
+            <img src="./images/icon-detailed-records.svg">
+          </div>
+          <h3 class="card__title">Detailed Records</h3>
+          <p class="card__description text-regular">
+            Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.
+          </p>
+        </div>
+        <div class="card short-url__cards-item">
+          <div class="card__img">
+            <img src="./images/icon-fully-customizable.svg">
+          </div>
+          <h3 class="card__title">Fully Customizable</h3>
+          <p class="card__description text-regular">
+            Improve brand awareness and content discoverability through customizable
+  links, supercharging audience engagement.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-boost">
+      <div class="section-boost__container">
+        <h1 class="section-boost__title">Boost your links today</h1>
+        <button class="btn-primary section-boost__button">Get Started</button>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__logo">
+        Shortly
+      </div>
+
+      <ul class="footer__list">
+        <li>Features</li>
+    
+        <li>Shortening</li>
+        <li>Branded Links</li>
+        <li>Analytics</li>
+      </ul>
+
+      <ul class="footer__list">
+        <li>Resources</li>
+    
+        <li>Blog</li>
+        <li>Developers</li>
+        <li>Support</li>
+      </ul>
+
+      <ul class="footer__list">
+        <li>Company</li>
+    
+        <li>About</li>
+        <li>Our Team</li>
+        <li>Careers</li>
+        <li>Contact</li>
+      </ul>
+
+      <div class="footer__icons">
+        <img src="./images/icon-facebook.svg">
+        <img src="./images/icon-twitter.svg">
+        <img src="./images/icon-pinterest.svg">
+        <img src="./images/icon-instagram.svg">
+      </div>
+    </footer>
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+.btn-primary {
+  outline: none;
+  padding: 1rem;
+  border: none;
+  color: white;
+  background-color: $color-primary;
+  transition: all .2s;
+  border-radius: 10rem;
+  padding: 1rem 3rem;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $color-primary-light;
+  }
+}
+
+.btn-submit {
+  outline: none;
+  padding: 1rem;
+  border: none;
+  color: white;
+  background-color: $color-primary;
+  transition: all .2s;
+  border-radius: 1rem;
+  padding: 1.3rem 2.8rem;
+  cursor: pointer;
+  font-family: 'Poppins-Bold';
+
+  &:hover {
+    background-color: $color-primary-light;
+  }
+}
+
+.btn-cpy {
+  outline: none;
+  padding: 1rem;
+  border: none;
+  color: white;
+  background-color: $color-primary;
+  transition: all .2s;
+  border-radius: .6rem;
+  padding: .8rem 2.8rem;
+  cursor: pointer;
+  font-family: 'Poppins-Bold';
+
+  &:hover {
+    background-color: $color-primary-light;
+  }
+}

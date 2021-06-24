@@ -1,0 +1,11 @@
+.input {
+  padding: 1.2rem 2.8rem;
+  font-family: 'Poppins';
+  border-radius: 1rem;
+
+  &:focus {
+    outline: none;
+    border-color: $color-primary;
+    border-style: solid;
+  }
+}

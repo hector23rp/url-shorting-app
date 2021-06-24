@@ -1,0 +1,177 @@
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 1.5rem $padding-lateral;
+
+  &__title {
+    font-size: 3rem;
+    letter-spacing: 1px;
+    margin-right: 2rem;
+    font-family: 'Poppins-Bold';
+  }
+
+  &__links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0 2rem;
+    color: $color-gray-second;
+    cursor: pointer;
+
+    &-item {
+      padding: 0 1.6rem;
+      font-family: 'Poppins-Bold';
+    }
+
+    &-item:first-child {
+      padding-left: 0;
+    }
+
+    &-item:hover {
+      color: $color-blue-dark;
+    }
+  }
+
+  &__auth {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    color: $color-gray-second;
+
+    &-item {
+      padding: .8rem 3rem;
+      cursor: pointer;
+      margin: 0 .5rem;
+      font-family: 'Poppins-Bold';
+    }
+  }
+}
+
+.header {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 10%;
+  background-image: url("../../images/illustration-working.svg");
+  background-repeat: no-repeat;
+  background-position: 130%;
+  background-size: 100rem;
+
+  &__left {
+    width: 40%;
+  }
+
+  &__title {
+    font-size: 7rem;
+    font-family: 'Poppins-Bold';
+    letter-spacing: 1px;
+    line-height: 120%;
+    font-weight: 900;
+  }
+
+  &__image {
+    position: absolute;
+    width: 50%;
+    right: -120px;
+  }
+
+  &__button {
+    margin-top: 3rem;
+    font-family: 'Poppins-Bold';
+  }
+}
+
+.short-url {
+  min-height: 90vh;
+  background-color: $color-gray;
+
+  &__form {
+    transform: translateY(-50%);
+  }
+
+  &__results {
+    transform: translateY(-9rem);
+    margin: 2rem 0;
+  }
+
+  &__title {
+    font-size: 4rem;
+    font-family: 'Poppins-Bold';
+  }
+
+  &__description {
+    text-align: center;
+    letter-spacing: .1rem;
+    margin-top: 1rem;
+  }
+
+  &__cards {
+    padding: 15rem 0;
+    display: flex;
+    flex-direction: row; 
+    position: relative;
+
+    &-line {
+      width: 50%;
+      height: 1rem;
+      position: absolute;
+      background-color: $color-primary;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+  
+      &::before {
+        content: '';
+      }
+    }
+    
+    &-item {
+      margin: 0 1rem;
+
+      &-first {
+        transform: translateY(-20%);
+      }
+
+      &:last-child {
+        transform: translateY(20%);
+      }
+    }
+  }
+}
+
+.section-boost {
+  height: 20vh;
+  text-align: center;
+  padding: 2rem;
+  background-color: $color-primary-dark;
+  background-image: url('../../images/bg-shorten-desktop.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Poppins-Bold';
+  
+  &__title {
+    font-size: 4rem;
+    color: white;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+  }
+
+  &__button {
+    font-family: 'Poppins-Bold';
+  }
+}

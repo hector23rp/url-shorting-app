@@ -1,0 +1,54 @@
+.footer {
+  height: 35vh;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  background-color: $color-violet-dark;
+  padding: 8rem;
+
+  &__logo {
+    font-size: 3rem;
+    letter-spacing: 1px;
+    margin-right: 2rem;
+    font-family: 'Poppins-Bold';
+    color: white;
+    font-weight: 600;
+    padding-left: 2rem;
+  }
+
+  &__list {
+    list-style: none;
+    
+    & > li {
+      cursor: pointer;
+      color: $color-gray-second;
+      margin-bottom: .5rem;
+      width: fit-content;
+
+      &:first-child {
+        color: white;
+        margin-bottom: 1.5rem;
+        cursor: default;
+
+        &:hover {
+          color: white;
+        }
+      }
+
+      &:hover {
+        color: $color-primary;
+      }
+    }
+  }
+
+  &__icons {
+    & > img {
+      margin-right: 1rem;
+      cursor: pointer;
+      
+      &:hover {
+        color: $color-primary;
+      }
+    }
+  }
+}

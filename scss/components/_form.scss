@@ -1,0 +1,17 @@
+.form-short {
+  padding: 4.5rem 1.2rem;
+  text-align: center;
+  background-color: $color-primary-dark;
+  background-image: url('../../images/bg-shorten-desktop.svg');
+  border-radius: .6rem;
+
+  &__input {
+    font-size: 1.6rem;
+    margin-right: 1rem;
+    width: 75%;
+  }
+
+  &__button {
+    font-size: 1.6rem;
+  }
+}

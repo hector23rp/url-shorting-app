@@ -1,0 +1,22 @@
+.bg-transparent { background-color: transparent; }
+.color-gray { 
+  color: $color-gray-second;
+
+  &:hover {
+    color: $color-blue-dark;
+  }
+}
+// Padding lateral
+.pd-l {
+  padding-left: $padding-lateral;
+  padding-right: $padding-lateral;
+}
+
+// Width 100%
+.w-100 {
+  width: 100%;
+}
+
+.w-33 {
+  width: 33%;
+}
